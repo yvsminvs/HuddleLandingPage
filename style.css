@@ -192,14 +192,14 @@ p{
         display:flex;
         justify-content: flex-end;
         align-items: flex-end ;
-        height:80px;
+    
     }
 
     .register a{
         padding:15px 60px;
         font-size: 15px;;
     }
-   
+
 }
     
     
