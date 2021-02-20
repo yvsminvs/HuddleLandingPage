@@ -39,13 +39,12 @@ body{
     display:flex;
     justify-content: center;
 }
-.image{
-    min-width:297px;
-    height:209px;
-    background-image: url('/images/illustration-mockups.svg');
-    background-size: cover;
-}
 
+.img{
+    max-width: 100%;
+    height: auto;
+
+}
 .register{
     margin-bottom:80px;
 }
@@ -78,6 +77,7 @@ p{
     line-height: 1.5rem;
     margin-bottom:35px;
     margin-top:20px;
+    opacity:80%;
 }
 
 .button{
@@ -113,6 +113,7 @@ p{
     list-style: none;
     display:flex;
     justify-content: center;
+    align-items: center;
     padding:0;
 }
 
@@ -122,19 +123,34 @@ p{
     color:rgba(245, 245, 245, 0.692);
 }
 
+.attribution{
+    margin:0;
+}
+@media only screen and (min-width:376px){ 
 
-@media only screen and (min-width:425px){  
     html{
         height: 100%;
     }
     body{   
-    background-color: var(--violet);
+    background-image: url(/images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    }
+}
+@media only screen and (min-width:1080px){  
+    html{
+        height: 100%;
+    }
+    body{   
     background-image: url(/images/bg-desktop.svg);
     background-repeat: no-repeat;
     padding:66px 80px;
     margin:0;
     background-size: cover;
     height: 100%;
+    width: 100%;
     }
     .logo{
         width:auto;
@@ -143,18 +159,21 @@ p{
     }
   
     .container{
+        margin-top:40px;
         display:flex;
+        justify-content: center;
+
 
     }
+
     .box1{
-        display:flex;
-        align-items: center;
-        width:700px;
+        width:800px;
         margin-right: 60px;
     }
     .image{
-        width:700px;
-        height:500px;
+        min-width:700px;
+        min-height:500px;
+
     }
    .box2{
        width:550px;
@@ -165,7 +184,7 @@ p{
    }
 
    p{
-       font-size: 18px;
+       font-size: 17px;
    }
     
     .social {
