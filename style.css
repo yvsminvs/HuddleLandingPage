@@ -127,22 +127,16 @@ p{
 .attribution{
     margin:0;
 }
-@media only screen and (min-width:376px){ 
+@media only screen and (min-width:375px){ 
 
     html{
         height: 100%;
     }
     body {
-        content:"";
-        position:inherit;
-        left:0;
-        top:0;
-        right:0;
-        bottom:0;
-        z-index:-1;
-        display:block;
-        background:url(/images/bg-mobile.svg) no-repeat 50% 50% var(--violet);
-        background-size:cover;
+        background-image:url(/images/bg-mobile.svg);
+        background-size: 200vw ;
+ 
+
     }
    
 }
