@@ -106,16 +106,44 @@ p{
     border-color: var(--magenta);
 }
 
-.fa-customize{
-    font-size:20px;
+.social ul{
+    padding:0;
+    display: flex;
+    gap:20px;
+}
+.social li{
+    list-style: none;
+    display: inline;
+    width:30px;
+    height: 30px;
 }
 
-.social{
-    list-style: none;
-    display:flex;
+.social ul{
     justify-content: center;
-    align-items: center;
-    padding:0;
+}
+
+
+.fab {
+    border-radius: 50%;
+    border: solid 1px white;
+    color: white;
+    float: right;
+    font-size: 16px;
+    padding: 10px 10px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.fa-facebook-f {
+    padding: 10px 13px;
+}
+
+.fa-instagram{
+    padding: 10px 11px;
+}
+.fab:hover{
+    color: var(--magenta);
+    border-color: var(--magenta);
 }
 
 
